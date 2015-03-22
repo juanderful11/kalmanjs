@@ -22,6 +22,9 @@
       "url": "https://github.com/juanderful11/kalmanjs/LICENSE-MIT"
     }
   ],
+  "dependencies": {
+    "mathjs": "1.4.0"
+  },
   "bugs": {
     "url": "https://github.com/juanderful11/kalmanjs/issues"
   },
