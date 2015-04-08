@@ -1,7 +1,7 @@
 {
   "name": "kalmanjs",
   "main": "kalman.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Library providing methods to perform kalman filter operations on measurements",
   "homepage": "https://github.com/juanderful11/kalmanjs",
   "authors": [
