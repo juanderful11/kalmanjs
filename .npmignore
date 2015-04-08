@@ -3,3 +3,4 @@ bower_components/
 example/
 kalman.js
 bower.json
+.gitignore
