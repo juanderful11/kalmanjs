@@ -1,5 +1,3 @@
-var math = require('mathjs');
-
 /**
  * Kalman Filter constructor
  * The filter is modeled after Newton's laws of motion
@@ -44,5 +42,3 @@ KalmanFilter.prototype.update = function(m) {
 
 	return this.X._data[0];
 }
-
-module.exports = KalmanFilter;

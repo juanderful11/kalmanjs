@@ -1,0 +1,23 @@
+{
+  "name": "kalmanjs",
+  "main": "kalman.js",
+  "version": "0.1.0",
+  "description": "Library providing methods to perform kalman filter operations on measurements",
+  "homepage": "https://github.com/juanderful11/kalmanjs",
+  "authors": [
+    "juanderful11 <jba0193@gmail.com>"
+  ],
+  "keywords": [
+    "kalman",
+    "filter",
+    "gps"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "example",
+    "index.js",
+    "package.json"
+  ]
+}
