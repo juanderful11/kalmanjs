@@ -1,0 +1,17 @@
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.angular-google-map-container { 
+  height: 100%; 
+}
+
+canvas.error {
+  background-color: rgb(0,0,0);
+  position: absolute;
+  left:0;
+  right:0;
+  bottom: 0px;
+  margin: auto;
+}

@@ -1,0 +1,23 @@
+<html ng-app="KalmanApp">
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=drawing"></script>
+    <script src="./lodash.js"> </script>
+    <script src="./angular.min.js"> </script>
+    <script src="./angular-google-maps.min.js"> </script>
+    <script src="./math.min.js"> </script>
+    <script src="./controllers.js"> </script>
+  </head>
+  <body ng-controller="KalmanCtrl" ng-keyup="keyPressed($event)" >
+    <ui-gmap-google-map center='map.center' pan="true" zoom='map.zoom' options='map.options'>     
+
+      <ui-gmap-marker coords="map.center" idKey="0" icon="userCircle"></ui-gmap-marker>
+      <ui-gmap-marker coords="kalman" idKey="1" icon="kalmanCircle"></ui-gmap-marker>
+      <ui-gmap-marker coords="gps" idKey="2" icon="gpsCircle"></ui-gmap-marker>
+
+    </ui-gmap-google-map>
+    
+    <canvas class="error" width="500" height="100"></canvas>
+    <div class"error"> Kalman error: {{kalmanAvg}}m vs GPS error: {{gpsAvg}}m</div>
+  </body>
+</html>
